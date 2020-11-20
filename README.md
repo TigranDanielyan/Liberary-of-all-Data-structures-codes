@@ -20,4 +20,4 @@ needed:link list, double link list, stack, queue, deque, hashset, hashmap
 
 9) Deque.py +
 
-10) hashmap -
+10) HashMap.py -
