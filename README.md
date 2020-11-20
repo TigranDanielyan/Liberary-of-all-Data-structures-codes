@@ -1,9 +1,9 @@
 # Liberary-of-all-Data-structures-codes
 This is a liberary of all codes from data here is the named list
 
-1
+1) DoublyLinkedList.py
 
-2
+2) LinkedList.py
 
 3
 
