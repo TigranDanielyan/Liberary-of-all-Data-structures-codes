@@ -63,3 +63,50 @@ class CyclicDeque:
         print("Printing Cyclic Deque: ", end="\t")
         print(self.items)
         return ""
+    
+    
+# Deque with doubly linked list
+class Deque:
+
+    def __init__(self):
+        self.items = DoubleLinkedList()
+        self.capacity = 8
+
+    def add_first(self, data):
+        if self.is_full():
+            print("Overload!")
+            return
+        self.items.insert_first(data)
+
+    def add_last(self, data):
+        if self.is_full():
+            print("Overload!")
+            return
+        self.items.insert_last(data)
+
+    def remove_first(self):
+        self.items.remove_first()
+
+    def remove_last(self):
+        self.items.remove_last()
+
+    def get_first(self):
+        return self.items.get_first()
+
+    def get_last(self):
+        return self.items.get_last()
+
+    def is_full(self):
+        return self.items.get_size() == 8
+
+    def get_size(self):
+        return self.items.get_size()
+
+    def __repr__(self):
+        current_node = self.items.get_first()
+        deque = []
+        while current_node is not None:
+            deque.append(current_node.data)
+            current_node = current_node.next
+        return "Printing Deque: " + str(deque) + "\n\n"
+
