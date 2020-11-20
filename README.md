@@ -11,9 +11,9 @@ This is a liberary of all codes from data here is the named list
 
 5) Circular_Queue.py
 
-6
+6) HashSet.py
 
-7
+7) HashTable.py
 
 8
 
