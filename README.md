@@ -1,6 +1,6 @@
 # Liberary-of-all-Data-structures-codes
 This is a liberary of all codes from data here is the named list
-needed:link list, double link list, stack, queue, deque, hashset, hashmap
+needed:link list, double link list, stack, queue, deque, hashset, hashmap/table
 
 1) DoublyLinkedList.py  +
 
@@ -16,8 +16,8 @@ needed:link list, double link list, stack, queue, deque, hashset, hashmap
 
 7) HashTable.py ??
 
-8) Stack_ADT +
+8) Stack_ADT.py +
 
 9) Deque.py +
 
-10) HashMap.py -
+10) HashMap.py +
