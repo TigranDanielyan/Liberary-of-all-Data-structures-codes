@@ -9,14 +9,10 @@ needed: link list +, double link list +, stack +, queue +, deque +, hashset +, h
 
 3) Queue.py + / queue
 
-4) Queue_LinkedList ???
+4) HashSet.py + / hashset
 
-5) Circular_Queue.py ??
+5) HashTable.py + / hashmap/table
 
-6) HashSet.py + / hashset
+6) Stack_ADT.py + / stack
 
-7) HashTable.py + / hashmap/table
-
-8) Stack_ADT.py + / stack
-
-9) Deque.py + /deque
+7) Deque.py + /deque
