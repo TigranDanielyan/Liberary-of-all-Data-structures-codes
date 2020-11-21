@@ -1,8 +1,3 @@
-
-# Problem 1
-# -----------------------------------------------------------------
-
-
 class CyclicDeque:
 
     def __init__(self):
@@ -63,9 +58,7 @@ class CyclicDeque:
         print("Printing Cyclic Deque: ", end="\t")
         print(self.items)
         return ""
-    
-    
-# Deque with doubly linked list
+
 class Deque:
 
     def __init__(self):
