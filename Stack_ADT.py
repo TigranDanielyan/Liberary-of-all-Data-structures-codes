@@ -118,5 +118,5 @@ def infixToPostfix(infix_expression):
     return " ".join(postfix_list)
 
 
-print(infixToPostfix("A * B + C * D"))
-print(infixToPostfix("( A + B ) * C - ( D - E ) * ( F + G )"))
+print(infixToPostfix("X * Y + Z * N"))
+print(infixToPostfix("( X + Y ) * Z - ( N - M) * ( K + L )"))
