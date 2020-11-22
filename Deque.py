@@ -286,7 +286,7 @@ def divide_to_odd_and_even_linked_list(linked_list: DoubleLinkedList):
 def main():
 # TESTING PROBLEM 1
 
-    print("TESTING Problem 1: CyclicDeque")
+    print("TESTING Problem 1")
     deque = CyclicDeque()
 
     deque.insert_first(15)
@@ -294,9 +294,9 @@ def main():
     deque.insert_last(65)
 
     if deque.items == [25, 15, 65, None]:
-        print("\n\tTesting add first and last for Cyclic Deque: PASS")
+        print("\n\tTesting add first / last for cyclic Deque: PASS")
     else:
-        print("\n\tTesting add first and last for Cyclic Deque: FAIL")
+        print("\n\tTesting add first / last for cyclic Deque: FAIL")
 
     print("\t", end="")
     print(deque)
@@ -306,24 +306,24 @@ def main():
     deque.deleteFirst()
 
     if deque.items == [10, None, None, None]:
-        print("\n\tTesting delete first and last for Cyclic Deque: PASS")
+        print("\n\tTesting delete first / last for cyclic Deque: PASS")
     else:
-        print("\n\tTesting delete first and last for Cyclic Deque: FAIL")
+        print("\n\tTesting delete first / last for cyclic Deque: FAIL")
 
     print("\t", end="")
     print(deque)
 
     if deque.getFirst() == deque.getLast() == 10:
-        print("\n\tTesting get first and last for Cyclic Deque: PASS")
+        print("\n\tTesting get first / last for Cyclic Deque: PASS")
     else:
-        print("\n\tTesting get first and last for Cyclic Deque: FAIL")
+        print("\n\tTesting get first / last for Cyclic Deque: FAIL")
 
     print("\t", end="")
     print(deque)
 
 # TESTING PROBLEM 2
 
-    print("TESTING Problem 2: Deque with DoubleLinkedList")
+    print("TESTING Problem 2")
     deque = Deque()
 
     deque.add_first(2)
@@ -369,7 +369,7 @@ def main():
 
 # TESTING PROBLEM 3
 
-    print("\nTESTING Problem 3: DoubleLinkedList")
+    print("\nTESTING Problem 3")
     linked_list = DoubleLinkedList()
 
     linked_list.insert_first(2)
@@ -400,7 +400,6 @@ def main():
     print(linked_list, end="")
 
 
-
     if linked_list.size == linked_list.get_size():
         print("\tGet list size: PASS")
     else:
@@ -412,9 +411,9 @@ def main():
         print("\n\tGet first size: FAIL")
 
     if linked_list.last == linked_list.get_last():
-        print("\n\tGet last size: PASS")
+        print("\n\tGet lastest size: PASS")
     else:
-        print("\n\tGet last size: FAIL")
+        print("\n\tGet lastest  size: FAIL")
 
 
     linked_list.insert_after(5, "a")
@@ -426,16 +425,16 @@ def main():
         list_to_check.append(current_node.data)
         current_node = current_node.next
     if list_to_check == ["a", "c", 5, 2]:
-        print("\n\tInsert Before After Test: PASS")
+        print("\n\tInsert Before / After Test: PASS")
     else:
-        print("\n\tInsert Before After Test: FAIl")
+        print("\n\tInsert Before / After Test: FAIl")
 
     print("\t", end="")
     print(linked_list, end="")
 
 # TESTING PROBLEM 4
 
-    print("TESTING Problem 4: Even and Odd position\n")
+    print("TESTING Problem 4\n")
 
     linked_list.insert_first(33)
     linked_list.insert_first(56)
@@ -468,9 +467,9 @@ def main():
         result = False
 
     if result:
-        print("\n\tDivide to two lists at even and odd positions Test: PASS\n")
+        print("\n\tDivide to two lists at even / odd positions Test: PASS\n")
     else:
-        print("\n\tDivide to two lists at even and odd positions Test: FAIL\n")
+        print("\n\tDivide to two lists at even / odd positions Test: FAIL\n")
 
     print("\tEven position list: ", end="")
     print(even_position, end="")
