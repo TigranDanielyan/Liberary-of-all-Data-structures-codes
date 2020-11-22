@@ -1,7 +1,5 @@
 
 # Problem 1
-# -----------------------------------------------------------------
-
 
 class CyclicDeque:
 
@@ -65,9 +63,7 @@ class CyclicDeque:
         return ""
 
 
-# Problem 2 and 3
-# -----------------------------------------------------------------
-
+# Problem 2 
 
 class Node:
 
@@ -218,8 +214,8 @@ class DoubleLinkedList:
         print()
         return ""
 
+# Problem 3
 
-# Deque with doubly linked list
 class Deque:
 
     def __init__(self):
@@ -266,7 +262,6 @@ class Deque:
 
 
 # Problem 4
-# -----------------------------------------------------------------
 
 
 def divide_to_odd_and_even_linked_list(linked_list: DoubleLinkedList):
@@ -289,14 +284,10 @@ def divide_to_odd_and_even_linked_list(linked_list: DoubleLinkedList):
 
 
 def main():
-    # TESTING PROBLEM 1
-    # -----------------------------------------------------------------------------------------------------------
+# TESTING PROBLEM 1
 
     print("TESTING Problem 1: CyclicDeque")
     deque = CyclicDeque()
-
-    # testing add_first and add_last for CyclicDeque class
-    # ----------------------------------------------------
 
     deque.insert_first(10)
     deque.insert_first(20)
@@ -310,8 +301,6 @@ def main():
     print("\t", end="")
     print(deque)
 
-    # testing delete first and last for CyclicDeque class
-    # ----------------------------------------------------
 
     deque.deleteLast()
     deque.deleteFirst()
@@ -324,9 +313,6 @@ def main():
     print("\t", end="")
     print(deque)
 
-    # testing get first and last for CyclicDeque class
-    # ----------------------------------------------------
-
     if deque.getFirst() == deque.getLast() == 10:
         print("\n\tTesting get first and last for Cyclic Deque: PASS")
     else:
@@ -335,14 +321,10 @@ def main():
     print("\t", end="")
     print(deque)
 
-    # TESTING PROBLEM 2
-    # -----------------------------------------------------------------------------------------------------------
+# TESTING PROBLEM 2
 
     print("TESTING Problem 2: Deque with DoubleLinkedList")
     deque = Deque()
-
-    # test add_first and add_last functions
-    # ----------------------------------------------------
 
     deque.add_first(1)
     deque.add_first("a")
@@ -358,9 +340,6 @@ def main():
     print("\t", end="")
     print(deque, end="")
 
-    # test removeFirst and removeLast functions
-    # ----------------------------------------------------
-
     deque.remove_first()
     deque.remove_last()
     deque.remove_last()
@@ -372,9 +351,6 @@ def main():
 
     print("\t", end="")
     print(deque, end="")
-
-    # test get first, last, and size
-    # ----------------------------------------------------
 
     if deque.items.size == deque.get_size():
         print("\tGet list size: PASS")
@@ -391,14 +367,10 @@ def main():
     else:
         print("\n\tGet last size: FAIL")
 
-    # TESTING PROBLEM 3
-    # -----------------------------------------------------------------------------------------------------------
+# TESTING PROBLEM 3
 
     print("\nTESTING Problem 3: DoubleLinkedList")
     linked_list = DoubleLinkedList()
-
-    # test insertFirst and insertLast functions
-    # ----------------------------------------------------
 
     linked_list.insert_first(1)
     linked_list.insert_first("a")
@@ -414,8 +386,6 @@ def main():
     print("\t", end="")
     print(linked_list, end="")
 
-    # test remove_first and remove_last functions
-    # ----------------------------------------------------
 
     linked_list.remove_first()
     linked_list.remove_last()
@@ -429,8 +399,7 @@ def main():
     print("\t", end="")
     print(linked_list, end="")
 
-    # test get first, last, and size
-    # ----------------------------------------------------
+
 
     if linked_list.size == linked_list.get_size():
         print("\tGet list size: PASS")
@@ -447,8 +416,6 @@ def main():
     else:
         print("\n\tGet last size: FAIL")
 
-    # test insert After and Before functions
-    # ----------------------------------------------------
 
     linked_list.insert_after(4, "a")
     linked_list.insert_before("c", 4)
@@ -465,6 +432,8 @@ def main():
 
     print("\t", end="")
     print(linked_list, end="")
+
+# TESTING PROBLEM 4
 
     print("TESTING Problem 4: Even and Odd position\n")
 
