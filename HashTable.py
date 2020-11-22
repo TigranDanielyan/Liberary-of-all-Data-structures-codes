@@ -7,7 +7,7 @@ class HashItem:
 class HashTable:
 
     def __init__(self):
-        self.size = 256
+        self.size = 266
         self.slots = [None for i in range(self.size)]
         self.count = 0
 
@@ -45,4 +45,4 @@ class HashTable:
         return self.get(key)
 
 
-ht = HashTable()
+hash_t = HashTable()
