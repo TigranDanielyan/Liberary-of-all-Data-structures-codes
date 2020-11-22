@@ -61,11 +61,11 @@ class LinkedList:
 
 
 linked_list = LinkedList()
-linked_list.add_beginning(4)
-linked_list.add_beginning(76)
-linked_list.add_beginning(3)
+linked_list.add_beginning(2)
+linked_list.add_beginning(55)
+linked_list.add_beginning(6)
+linked_list.add_beginning(34)
 linked_list.add_beginning(0)
-linked_list.add_beginning(1)
 
 linked_list.print_list()
 linked_list.reverseList()
