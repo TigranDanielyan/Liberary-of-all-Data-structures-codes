@@ -67,10 +67,10 @@ class DoublyLinkedList(object):
                     self.root = this_node.get_next()
                     this_node.get_next().set_prev(self.root)
                 self.size -= 1
-                return True  # data removed
+                return True 
             else:
                 this_node = this_node.get_next()
-        return False  # data not found
+        return False 
 
     def find(self, d):
         this_node = self.root
