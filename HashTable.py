@@ -45,4 +45,25 @@ class HashTable:
         return self.get(key)
 
 
-hash_t = HashTable()
+ht = HashTable()
+ht.put('key1','value1')
+ht.put('key2','value2')
+ht.put('key3','value3')
+ht.put('key5','value10')
+ht.put('key6', 'value20')
+
+print("printing original numbers")
+print(ht['key1'])
+print (ht['key2'])
+print (ht['key3'])
+print(ht['key5'])
+print (ht['key6'])
+
+print("changing before 2nd print original numbers")
+ht.put('key5','value1')
+ht.put('key1','value10')
+print(ht['key1'])
+print (ht['key2'])
+print (ht['key3'])
+print(ht['key5'])
+print (ht['key6'])
