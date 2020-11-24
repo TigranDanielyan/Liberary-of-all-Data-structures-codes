@@ -1,16 +1,21 @@
 class Queue:
+    def __init__(self):
+        self.items = []
 
-    def __init__(self) -> None:
-        self.queue: list = []
+    def isEmpty(self):
+        return self.items == []
 
-    def enqueue(self, data):
-        self.queue.append(data)
+    def enqueue(self, item):
+        self.items.insert(0,item)
 
     def dequeue(self):
-        if len(self.queue) > 0:
-            return self.queue.pop(0)
-        else:
-            return None
+        return self.items.pop()
 
-    def __repr__(self):
-        return self.queue
+    def size(self):
+        return len(self.items)
+
+q=Queue()
+q.enqueue(4)
+q.enqueue('dog')
+q.enqueue(True)
+print("printing size:", q.size())
