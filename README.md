@@ -13,6 +13,6 @@ needed: link list +, double link list +, stack +, queue +, deque +, hashset +, h
 
 5) HashTable.py + / hashmap/table
 
-6) Stack_ADT.py + / stack
+6) Stack_ADT.py Stack2.py + / stack
 
 7) Deque.py + /deque
