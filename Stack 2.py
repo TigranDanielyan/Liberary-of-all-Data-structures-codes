@@ -35,21 +35,12 @@ if __name__ == "__main__":
 
     stack.push("1")
     stack.push('2')
-    print(stack.size())
-    print(stack.peek())
+    print("printing size:",stack.size())
+    print("peek number",stack.peek())
 
 
     stack.pop()
-    print(stack.size())
-    print(stack.peek())
+    print("printing size:",stack.size())
+    print("peek number",stack.peek())
 
-    print(stack.isempty())
-
-
-
-
-
-
-
-
-
+    print("status of emptiness:",stack.isempty())
