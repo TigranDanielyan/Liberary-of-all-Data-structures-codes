@@ -36,11 +36,11 @@ if __name__ == "__main__":
     stack.push("1")
     stack.push('2')
     print("printing size:",stack.size())
-    print("peek number",stack.peek())
+    print("peek number:",stack.peek())
 
 
     stack.pop()
     print("printing size:",stack.size())
-    print("peek number",stack.peek())
+    print("peek number:",stack.peek())
 
     print("status of emptiness:",stack.isempty())
