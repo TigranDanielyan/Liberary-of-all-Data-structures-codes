@@ -11,7 +11,7 @@ needed: link list +, double link list +, stack +, queue +, deque +, hashset +, h
 
 4) HashSet.py + / hashset
 
-5) HashTable.py + / hashmap/table
+5) HashTable.py, HashTable 2.py + / hashmap/table
 
 6) Stack2.py + / stack
 
