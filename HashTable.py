@@ -65,7 +65,7 @@ HT.put('key1','value10')
 print(HT['key1'])
 print (HT['key2'])
 print (HT['key3'])
-print(Ht['key5'])
+print(HT['key5'])
 print (HT['key6'])
 
                          
