@@ -64,3 +64,11 @@ print (H['key3'])
 print(H[10])
 print (H[20])
 print (H.get('key1'))
+
+                                            
+print("hashing values")                     
+print (H.hash_func('key1'))                 
+print (H.hash_func('key2'))                 
+print (H.hash_func('key3'))                 
+print (H.hash_func(10))                     
+print (H.hash_func(20))                     
