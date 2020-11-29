@@ -67,3 +67,11 @@ print (HT['key2'])
 print (HT['key3'])
 print(Ht['key5'])
 print (HT['key6'])
+
+                         
+print("hashing values")  
+print(HT._hash('key1'))
+print(HT._hash('key2'))
+print(HT._hash('key3'))
+print(HT._hash('key5'))
+print(HT._hash('key6'))
