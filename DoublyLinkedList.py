@@ -104,7 +104,7 @@ def main():
     DLL.print_list()
     DLL.remove(7)
     print("size:" + str(DLL.get_size()))
-    print("Remove 15", DLL.remove(14))
+    print("Remove 9", DLL.remove(9))
     DLL.add(11)
     DLL.add(12)
     DLL.remove(6)
