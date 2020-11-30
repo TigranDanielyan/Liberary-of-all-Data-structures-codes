@@ -57,13 +57,13 @@ class DoublyLinkedList(object):
         while this_node is not None:
             if this_node.get_data() == d:
                 if this_node.get_prev() is not None:
-                    if this_node.has_next():  # delete a middle node
+                    if this_node.has_next(): 
                         this_node.get_prev().set_next(this_node.get_next())
                         this_node.get_next().set_prev(this_node.get_prev())
-                    else:  # delete last node
+                    else: 
                         this_node.get_prev().set_next(None)
                         self.last = this_node.get_prev()
-                else:  # delete root node
+                else: 
                     self.root = this_node.get_next()
                     this_node.get_next().set_prev(self.root)
                 self.size -= 1
